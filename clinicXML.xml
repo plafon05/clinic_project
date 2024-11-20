@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<clinicXML>
+  <Patient>
+    <id>1</id>
+    <name>Иван Иванов</name>
+    <age>30</age>
+    <gender>М</gender>
+  </Patient>
+  <Doctor>
+    <id>1</id>
+    <name>Мария Смирнова</name>
+    <specialty>Терапевт</specialty>
+  </Doctor>
+  <Appointment>
+    <id>1</id>
+    <patient_id>1</patient_id>
+    <doctor_id>1</doctor_id>
+    <date>2024-11-20</date>
+    <time>10:00</time>
+  </Appointment>
+  <Diagnosis>
+    <id>1</id>
+    <patient_id>1</patient_id>
+    <description>ОРВИ</description>
+    <date>2024-11-20</date>
+  </Diagnosis>
+  <MedicalCard>
+    <id>1</id>
+    <patient_id>1</patient_id>
+    <diagnoses>
+      <diagnosis_id>1</diagnosis_id>
+    </diagnoses>
+  </MedicalCard>
+  <Prescription>
+    <id>1</id>
+    <patient_id>1</patient_id>
+    <medication>Парацетамол</medication>
+    <dosage>500 мг 3 раза в день</dosage>
+    <duration>5 дней</duration>
+  </Prescription>
+</clinicXML>

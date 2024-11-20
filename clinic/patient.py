@@ -1,39 +1,20 @@
-from typing import List
-
 class Patient:
-    patients_db = []
+    patients_db = []  # База данных пациентов
 
-    def __init__(self, id: int, name: str, age: int, gender: str):
-        if age < 0:
-            raise ValueError("Возраст не может быть отрицательным!")
-        self.id = id
+    def __init__(self, name: str, age: int):
+        if age <= 0:
+            raise ValueError("Возраст пациента должен быть положительным числом.")
         self.name = name
         self.age = age
-        self.gender = gender
         Patient.patients_db.append(self)
 
-    @classmethod
-    def create(cls, id: int, name: str, age: int, gender: str):
-        return cls(id, name, age, gender)
+    @staticmethod
+    def get_all_patients():
+        return Patient.patients_db
 
-    @classmethod
-    def read(cls, id: int):
-        for patient in cls.patients_db:
-            if patient.id == id:
-                return patient
-        raise ValueError("Пациент с таким ID не найден!")
-
-    def update(self, name: str = None, age: int = None, gender: str = None):
-        if name:
-            self.name = name
-        if age is not None:
-            if age < 0:
-                raise ValueError("Возраст не может быть отрицательным!")
-            self.age = age
-        if gender:
-            self.gender = gender
-
-    @classmethod
-    def delete(cls, id: int):
-        patient = cls.read(id)
-        cls.patients_db.remove(patient)
+    @staticmethod
+    def delete_patient(patient):
+        if patient in Patient.patients_db:
+            Patient.patients_db.remove(patient)
+        else:
+            raise ValueError("Пациент не найден.")

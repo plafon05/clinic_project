@@ -1,29 +1,19 @@
 class Appointment:
-    appointments_db = []
+    appointments_db = []  # База данных назначений
 
-    def __init__(self, id: int, doctor_id: int, patient_id: int, appointment_time: str):
-        self.id = id
-        self.doctor_id = doctor_id
-        self.patient_id = patient_id
-        self.appointment_time = appointment_time
+    def __init__(self, patient, doctor, appointment_date):
+        self.patient = patient
+        self.doctor = doctor
+        self.appointment_date = appointment_date
         Appointment.appointments_db.append(self)
 
-    @classmethod
-    def create(cls, id: int, doctor_id: int, patient_id: int, appointment_time: str):
-        return cls(id, doctor_id, patient_id, appointment_time)
+    @staticmethod
+    def get_all_appointments():
+        return Appointment.appointments_db
 
-    @classmethod
-    def read(cls, id: int):
-        for appointment in cls.appointments_db:
-            if appointment.id == id:
-                return appointment
-        raise ValueError("Запись с таким ID не найдена!")
-
-    def update(self, appointment_time: str = None):
-        if appointment_time:
-            self.appointment_time = appointment_time
-
-    @classmethod
-    def delete(cls, id: int):
-        appointment = cls.read(id)
-        cls.appointments_db.remove(appointment)
+    @staticmethod
+    def delete_appointment(appointment):
+        if appointment in Appointment.appointments_db:
+            Appointment.appointments_db.remove(appointment)
+        else:
+            raise ValueError("Запись на прием не найдена.")

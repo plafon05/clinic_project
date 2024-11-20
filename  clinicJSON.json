@@ -1,0 +1,44 @@
+[
+  {
+    "type": "Patient",
+    "id": 1,
+    "name": "Иван Иванов",
+    "age": 30,
+    "gender": "М"
+  },
+  {
+    "type": "Doctor",
+    "id": 1,
+    "name": "Мария Смирнова",
+    "specialty": "Терапевт"
+  },
+  {
+    "type": "Appointment",
+    "id": 1,
+    "patient_id": 1,
+    "doctor_id": 1,
+    "date": "2024-11-20",
+    "time": "10:00"
+  },
+  {
+    "type": "Diagnosis",
+    "id": 1,
+    "patient_id": 1,
+    "description": "ОРВИ",
+    "date": "2024-11-20"
+  },
+  {
+    "type": "MedicalCard",
+    "id": 1,
+    "patient_id": 1,
+    "diagnoses": [1]
+  },
+  {
+    "type": "Prescription",
+    "id": 1,
+    "patient_id": 1,
+    "medication": "Парацетамол",
+    "dosage": "500 мг 3 раза в день",
+    "duration": "5 дней"
+  }
+]

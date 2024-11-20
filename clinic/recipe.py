@@ -1,8 +1,13 @@
 class Recipe:
-    def __init__(self, recipe_id: int, patient: Patient, medications: str):
-        self.recipe_id = recipe_id  # ID рецепта
-        self.patient = patient  # Пациент, для которого выписан рецепт
-        self.medications = medications  # Перечень медикаментов
+    recipes_db = []  # База данных рецептов
 
-    def __str__(self) -> str:
-        return f"Recipe({self.recipe_id}, {self.patient.get_name()}, {self.medications})"
+    def __init__(self, patient, medication, date, doctor):
+        self.patient = patient
+        self.medication = medication
+        self.date = date
+        self.doctor = doctor
+        Recipe.recipes_db.append(self)
+
+    @staticmethod
+    def get_all_recipes():
+        return Recipe.recipes_db
