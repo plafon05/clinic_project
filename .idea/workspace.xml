@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7461806-717d-4b38-b39f-c5aba46c0171" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clinic_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clinic_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic/recipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/appointment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/department.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnosis.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/diagnosis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/doctor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/invoice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/medical_card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/patient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prescription.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/prescription.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/appointment.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/appointment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/department.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/department.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/diagnosis.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/diagnosis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/doctor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/invoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/medical_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/medical_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/patient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/prescription.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/prescription.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.data_manager.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.medical_card.executor": "Run",
+    "Python.patient.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,11 +81,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731712104639</updated>
-      <workItem from="1731712105662" duration="13072000" />
+      <workItem from="1731712105662" duration="19965000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clinic_project$main.coverage" NAME="main Coverage Results" MODIFIED="1732114749066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/clinic_project$data_manager.coverage" NAME="data_manager Coverage Results" MODIFIED="1732114587854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/clinic_project$medical_card.coverage" NAME="medical_card Coverage Results" MODIFIED="1732114813305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clinic" />
+    <SUITE FILE_PATH="coverage/clinic_project$patient.coverage" NAME="patient Coverage Results" MODIFIED="1732115301115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clinic" />
   </component>
 </project>
