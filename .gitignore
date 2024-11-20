@@ -1,11 +1,11 @@
-# Python-related files
+# хрень какая-то
 __pycache__/
 *.pyc
 *.pyo
 
-# Virtual environment
+# Virtual что-то там
 .venv/
 venv/
 
-# macOS-specific files
+# macOS файлы
 .DS_Store
