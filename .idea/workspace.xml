@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7461806-717d-4b38-b39f-c5aba46c0171" name="Changes" comment="" />
+    <list default="true" id="b7461806-717d-4b38-b39f-c5aba46c0171" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clinic_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clinic_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/appointment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/department.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagnosis.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/diagnosis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/doctor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/invoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medical_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/medical_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/patient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prescription.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/prescription.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/service.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,15 +38,24 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2ouGZm2ph03Mv4omlvtYp6kqWHt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -43,8 +76,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731712104639</updated>
-      <workItem from="1731712105662" duration="1000" />
+      <workItem from="1731712105662" duration="13072000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
